@@ -1,0 +1,10 @@
+Data Sources:
+Basic Airport Information: Openflights.org
+
+Flights to/from/in US:
+http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=292&DB_Short_Name=Air%20Carriers
+
+Conversion Thoughts:
+SQL is faster than pure python, even non optimized SQLite (so use sqlite
+for most operations, python to wrap it up).
+

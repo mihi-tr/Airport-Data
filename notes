@@ -8,3 +8,6 @@ Conversion Thoughts:
 SQL is faster than pure python, even non optimized SQLite (so use sqlite
 for most operations, python to wrap it up).
 
+If the data could be parallelized there would be better performance on
+multi-processor platforms. Unfortunately sqlite3 in python doesn't do the
+trick... Maybe we can do something different.
